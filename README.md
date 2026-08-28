@@ -26,43 +26,42 @@ https://github.com/Fiszbejn/Sprint3_AKD_LactareConnect
 > Capturas reais do app rodando no emulador Android (Pixel 4 XL, API 36).
 
 ### Boas-vindas / Autenticação
-![Boas-vindas](docs/screenshots/01-boas-vindas.png)
+<img src="docs/screenshots/01-boas-vindas.png" width="260" alt="Boas-vindas">
 
 Tela inicial do app, com opções para criar cadastro como doadora ou fazer login para quem já tem conta.
 
 ### Cadastro (3 passos)
-![Cadastro](docs/screenshots/02-cadastro.png)
+<img src="docs/screenshots/02-cadastro.png" width="260" alt="Cadastro">
 
 Wizard de cadastro dividido em três etapas: dados de identidade, contato/endereço e definição de senha.
 
 ### Início (FAQ)
-![Início - FAQ](docs/screenshots/03-inicio-faq.png)
+<img src="docs/screenshots/03-inicio-faq.png" width="260" alt="Início - FAQ">
 
 Tela inicial pós-login, com perguntas frequentes organizadas por categoria (Doação, Exames, Coleta, Armazenamento), busca e exibição em formato accordion.
 
 ### Doar — Mapa de bancos
-![Doar - Mapa](docs/screenshots/04-doar-mapa.png)
+<img src="docs/screenshots/04-doar-mapa.png" width="260" alt="Doar - Mapa">
 
 Lista dos bancos de leite Lactare disponíveis para vincular a doação, com seleção via rádio button.
 
 ### Doar — Agendamento de coleta
-![Agendamento de coleta](docs/screenshots/05-agendamento.png)
+<img src="docs/screenshots/05-agendamento.png" width="260" alt="Agendamento de coleta">
 
 Envio dos exames pré-doação exigidos, seleção de dia (dropdown) e horário (chips) para a coleta domiciliar, com confirmação habilitada apenas quando todas as etapas estão completas.
 
 ### Chat
-![Chat com a Lila](docs/screenshots/06-chat.png)
+<img src="docs/screenshots/06-chat.png" width="260" alt="Chat com a Lila">
 
 Conversa com a assistente virtual Lila, para tirar dúvidas sobre o processo de doação.
 
 ### Recompensas
-![Catálogo de recompensas](docs/screenshots/07-recompensas.png)
-![Detalhe de recompensa](docs/screenshots/07-recompensa-detalhe.png)
+<img src="docs/screenshots/07-recompensas.png" width="260" alt="Catálogo de recompensas"> <img src="docs/screenshots/07-recompensa-detalhe.png" width="260" alt="Detalhe de recompensa">
 
 Catálogo de recompensas trocáveis por Gotinhas, organizado por categoria (Autocuidado, Conforto, Bem Estar), com tela de detalhe e resgate.
 
 ### Conta
-![Conta](docs/screenshots/08-conta.png)
+<img src="docs/screenshots/08-conta.png" width="260" alt="Conta">
 
 Perfil da doadora, com seções de dados de cadastro, preferências e privacidade.
 
