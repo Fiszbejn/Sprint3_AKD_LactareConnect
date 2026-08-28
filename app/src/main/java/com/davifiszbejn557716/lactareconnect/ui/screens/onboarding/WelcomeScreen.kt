@@ -1,9 +1,8 @@
 package com.davifiszbejn557716.lactareconnect.ui.screens.onboarding
 
-import androidx.compose.foundation.background
+import androidx.compose.foundation.Image
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
-import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
@@ -11,33 +10,30 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.shape.RoundedCornerShape
-import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.Favorite
-import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.Brush
+import androidx.compose.ui.draw.clip
+import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.dp
+import com.davifiszbejn557716.lactareconnect.R
 import com.davifiszbejn557716.lactareconnect.ui.components.LcBadge
 import com.davifiszbejn557716.lactareconnect.ui.components.LcBadgeTone
 import com.davifiszbejn557716.lactareconnect.ui.components.LcBrandMark
 import com.davifiszbejn557716.lactareconnect.ui.components.LcButton
 import com.davifiszbejn557716.lactareconnect.ui.components.LcButtonVariant
 import com.davifiszbejn557716.lactareconnect.ui.theme.Brand
-import com.davifiszbejn557716.lactareconnect.ui.theme.BrandLight
 import com.davifiszbejn557716.lactareconnect.ui.theme.Ink
 import com.davifiszbejn557716.lactareconnect.ui.theme.Muted
-import com.davifiszbejn557716.lactareconnect.ui.theme.White
 
 @Composable
 fun WelcomeScreen(
@@ -62,23 +58,15 @@ fun WelcomeScreen(
                 LcBadge(text = "PT-BR", tone = LcBadgeTone.Neutral)
             }
 
-            Box(
+            Image(
+                painter = painterResource(R.drawable.welcome_hero),
+                contentDescription = "Mãe amamentando o bebê",
+                contentScale = ContentScale.Crop,
                 modifier = Modifier
                     .fillMaxWidth()
                     .height(180.dp)
-                    .background(
-                        brush = Brush.verticalGradient(listOf(BrandLight, Brand)),
-                        shape = RoundedCornerShape(20.dp)
-                    ),
-                contentAlignment = Alignment.Center
-            ) {
-                Icon(
-                    imageVector = Icons.Filled.Favorite,
-                    contentDescription = null,
-                    tint = White,
-                    modifier = Modifier.size(40.dp)
-                )
-            }
+                    .clip(RoundedCornerShape(20.dp))
+            )
 
             Column(
                 modifier = Modifier
