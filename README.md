@@ -4,7 +4,7 @@ Aplicativo Android (Kotlin + Jetpack Compose) para conectar doadoras de leite ma
 
 ## Equipe
 
-**Nome da equipe:** _[preencher]_
+**Nome da equipe:** Lactare Connect
 
 **Integrantes:**
 - Davi Fiszbejn
@@ -23,45 +23,46 @@ https://github.com/Fiszbejn/Sprint3_AKD_LactareConnect
 
 ## Prints das telas
 
-> _Screenshots do app rodando (emulador/dispositivo) — a inserir._
+> Capturas reais do app rodando no emulador Android (Pixel 4 XL, API 36).
 
 ### Boas-vindas / Autenticação
-`[print aqui]`
+![Boas-vindas](docs/screenshots/01-boas-vindas.png)
 
 Tela inicial do app, com opções para criar cadastro como doadora ou fazer login para quem já tem conta.
 
 ### Cadastro (3 passos)
-`[print aqui]`
+![Cadastro](docs/screenshots/02-cadastro.png)
 
 Wizard de cadastro dividido em três etapas: dados de identidade, contato/endereço e definição de senha.
 
 ### Início (FAQ)
-`[print aqui]`
+![Início - FAQ](docs/screenshots/03-inicio-faq.png)
 
 Tela inicial pós-login, com perguntas frequentes organizadas por categoria (Doação, Exames, Coleta, Armazenamento), busca e exibição em formato accordion.
 
 ### Doar — Mapa de bancos
-`[print aqui]`
+![Doar - Mapa](docs/screenshots/04-doar-mapa.png)
 
 Lista dos bancos de leite Lactare disponíveis para vincular a doação, com seleção via rádio button.
 
 ### Doar — Agendamento de coleta
-`[print aqui]`
+![Agendamento de coleta](docs/screenshots/05-agendamento.png)
 
 Envio dos exames pré-doação exigidos, seleção de dia (dropdown) e horário (chips) para a coleta domiciliar, com confirmação habilitada apenas quando todas as etapas estão completas.
 
 ### Chat
-`[print aqui]`
+![Chat com a Lila](docs/screenshots/06-chat.png)
 
 Conversa com a assistente virtual Lila, para tirar dúvidas sobre o processo de doação.
 
 ### Recompensas
-`[print aqui]`
+![Catálogo de recompensas](docs/screenshots/07-recompensas.png)
+![Detalhe de recompensa](docs/screenshots/07-recompensa-detalhe.png)
 
 Catálogo de recompensas trocáveis por Gotinhas, organizado por categoria (Autocuidado, Conforto, Bem Estar), com tela de detalhe e resgate.
 
 ### Conta
-`[print aqui]`
+![Conta](docs/screenshots/08-conta.png)
 
 Perfil da doadora, com seções de dados de cadastro, preferências e privacidade.
 
