@@ -67,7 +67,7 @@ Perfil da doadora, com seções de dados de cadastro, preferências e privacidad
 
 ## Vídeo de demonstração
 
-`[link do vídeo aqui]`
+https://drive.google.com/file/d/1eaotC7Y8datFvU_D4UzVkuCgJZvPgCup/view?usp=sharing
 
 Vídeo mostrando a navegação pelo app: cadastro completo, fluxo de doação (mapa + agendamento com envio de exames), chat, resgate de recompensa e tela de conta.
 
